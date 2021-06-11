@@ -1,0 +1,91 @@
+/* * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+} */
+
+
+/* .parent {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin: 25%;
+    padding-top: 20px;
+    transition-duration: 2s;
+}
+
+.parent:hover{
+    margin-top: 20px;
+}
+
+.san {
+    background-color: rgb(199, 158, 158);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin: 30px;
+    padding-top: 10px;
+    position: relative;
+    left: 45px;
+    transition-delay:3s ;
+    transition-: ;
+
+}
+.san:hover{
+   position: relative;
+   top: 20px;
+} */
+
+
+
+div {
+    width: 400px;
+    background-color: #eee !important;
+    color: black !important;
+    font-size: 20px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0 solid transparent !important;
+    text-align: center;
+    content: counter(Elzero);
+    margin: 25%;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+
+div::after{
+    content: "Elzero";
+    color: black;
+    position: absolute;
+    right: 175px;
+    bottom: 10px;
+    z-index: 2;
+    background-color: #eee;
+    padding: 10px;
+    width: 92px;
+    text-align: center;
+    
+    
+}
+
+/* 
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  } */
+  
+  /* div {
+    color: var(--mainColor, red);
+    padding: var(--mainPadding, 10px);
+    width: 400px;
+    border: solid 3px var(--mainColor, black);
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  } */

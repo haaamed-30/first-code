@@ -1,0 +1,74 @@
+/*.nnn-d {
+width: 500px;
+margin: 50%;
+margin: auto;
+padding: 20px;
+background-color: blueviolet;
+}
+
+.n-d {
+    width: 500px;
+    margin: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(138 43 226/50%);
+}
+.nn-d {
+    width: 500px;
+margin: 50%;
+margin: auto;
+padding: 20px;
+background-color: rgb(138 43 226/10%);
+}
+p {
+    color: white;
+}*/
+
+.div-one {
+    width: 400px;
+    height: 400px;
+    background-image: url("https://via.placeholder.com/200x200/00F");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+
+.div-two {
+    width: 400px;
+    height: 400px;
+    background-image: url("https://via.placeholder.com/200x200/00F");
+    background-position: top right;
+    background-repeat: repeat-y;
+    background-size: 80%;
+    margin-left: 439px;
+    margin-top: -442px;
+}
+
+.div-th {
+    width: 400px;
+    height: 400px;
+    background-image: url("https://via.placeholder.com/200x200/00F");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 80%;
+}
+
+.div-fth {
+    width: 400px;
+    height: 400px;
+    background-image: url("https://via.placeholder.com/200x200/00F");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-left: 439px;
+    margin-top: -442px;
+}
+
+h6 {
+    color: white;
+}
+
+div {
+    background-color: #00808036;
+}

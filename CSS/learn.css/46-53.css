@@ -1,0 +1,369 @@
+/* div {
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: rgb(182, 80, 21);
+    margin: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+
+div::before {
+    content: "";
+    background-color: rgb(58, 144, 224);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    z-index: -1;
+   
+}
+
+div::after {
+    content: "";
+    background-color: rgb(182, 80, 21);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 496px;
+    z-index: -1;
+} */
+
+            /* -------------------------------------------------------------- */
+
+/* .parent {
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    margin: 20% auto;
+    padding: 5px;
+}
+
+div {
+    color: white;
+    background-color: rgb(245, 26, 44);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 184px;
+    margin: 6px;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content:  space-between;
+    justify-content: center; 
+} */
+
+
+            /* -------------------------------------------------------------- */
+
+/* 
+.parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20%;
+    display: flex;
+}
+
+div {
+    display: flex;
+    width: 184px;
+    background-color: rgb(140, 140, 172);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-self: center;
+   margin: 8px;
+}
+
+
+.one {
+    display: flex;
+    order: 6;
+    align-self: flex-end;
+    padding: 10px;
+}
+
+.two {
+    display: flex;
+    order: 5;
+    align-self: stretch ;
+    padding: 20px;
+    align-content: center;
+}
+
+.three {
+    display: flex;
+    order: 2;
+    align-self: flex-start;
+    padding: 10px;
+}
+
+.four {
+    display: flex;
+    order: 3;
+    align-self: stretch ;
+    padding: 20px;
+    align-content: center;
+}
+
+.five {
+    display: flex;
+    order: 4;
+    align-self: stretch ;
+    
+    margin-top: 0;
+    padding: 20px;
+    align-content: center;
+}
+
+.six {
+    display: flex;
+    order: 1;
+    align-self: stretch ;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 20px;
+    align-content: center;
+} */
+
+            /* -------------------------------------------------------------- */
+
+/* 
+.parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20%;
+    display: flex;
+}
+
+div {
+    display: flex;
+    width: 0;
+    background-color: rgb(122 146 129);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   justify-content: space-between;
+   flex-direction: column;
+   margin: 8px;
+   
+}
+
+
+.one {
+    display: flex;
+    align-self: flex-end;
+    padding: 15px;
+    flex-basis: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.two {
+    display: flex;
+    align-self: flex-start;
+    padding: 15px;
+    flex-basis: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+
+.three {
+    display: flex;
+    padding: 15px;
+    align-self: flex-end;  
+    flex-basis: 80px;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+                /* -------------------------------------------------------------- */
+
+
+/* .parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20% auto;
+    display: flex;
+}
+
+div {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    margin: 10px;
+    height: 140px;
+    width: 97px;
+    flex-shrink: 3;
+
+}
+
+
+
+
+
+
+.one {
+    display: flex;
+    background-color: #ff9800;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    align-self: flex-start;
+}
+
+
+.two {
+    display: flex;
+    background-color: #8bc34a;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    order: 3;
+    align-self: flex-end;
+}
+
+
+.three {
+    display: flex;
+    background-color: #795548;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    order: 4;
+    align-self: flex-start;
+}
+
+
+.four {
+    display: flex;
+    background-color: blueviolet;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    align-self: flex-end;
+} */
+
+
+            /* -------------------------------------------------------------- */
+
+
+            
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+:root {
+    --mainBackgroun-color: #b6deda;
+    --mainPadding: 10px;
+    --mainMargin:5px;
+  }
+
+.page {
+    background-color: #eee;
+    width: 800px;
+    height: 400px;
+    margin: 20% auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+
+
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding:var(--mainPadding);
+    margin: -10px;
+}
+.logo {
+    background-color: var( --mainBackgroun-color);
+    margin: var(--mainMargin);
+    padding: var(--mainPadding);
+    width: 100px;
+    display: flex; 
+    align-items: center;  
+    justify-content: center;
+}
+.links {
+    background-color: var( --mainBackgroun-color);
+  list-style-type: none;
+  margin: var(--mainMargin);
+  padding: var(--mainPadding);
+  width: 700px;
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-between;
+  
+}
+
+
+
+
+
+
+
+.main-area {
+    display: flex;
+    flex-direction: row;
+    padding: var(--mainPadding);
+    margin: -10px;
+    justify-content: flex-end;
+}
+.content {
+ background-color: var( --mainBackgroun-color);
+ width: 570px;
+height: 270px;
+margin: var(--mainMargin);
+padding: var(--mainPadding);
+flex-basis: 579px;
+}
+.sidebar {
+    background-color: var( --mainBackgroun-color);
+    margin: var(--mainMargin);
+    padding: var(--mainPadding);
+    flex-basis: 200px;
+    justify-content: flex-end;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   background-color: var( --mainBackgroun-color);
+    width: auto;
+    flex-basis: 800px;
+    margin: var(--mainMargin);
+    padding: var(--mainPadding);
+}
+

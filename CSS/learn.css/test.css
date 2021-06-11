@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.E {
+  /* background-color: #eee; */
+  width: 300px;
+  height: 550px;
+  margin: 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "nn on on on"
+    "nn w w w"
+    "nn th th th"
+    "nn r r r"
+    "nn fv fv fv";
+  position: relative;
+}
+
+.one {
+  grid-area: on;
+  background-color: #333;
+}
+
+.two {
+  grid-area: tw;
+  background-color: #333;
+}
+
+.th {
+  grid-area: th;
+  background-color: #333;
+}
+
+.fr {
+  grid-area: fr;
+  background-color: #333;
+}
+
+.fv {
+  grid-area: fv;
+  background-color: #333;
+}
+
+.six {
+  grid-area: nn;
+  background-color: #333;
+}
+
+.E::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #ffc107;
+  margin: 10px;
+  left: 220px;
+  top: 0px;
+  animation-name: squere;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes squere {
+  0% {
+    position: absolute;
+    left: 220px;
+    top: 0px;
+  }
+  10% {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  70% {
+    position: absolute;
+    left: 0px;
+    top: 160;
+  }
+
+  75% {
+    position: absolute;
+    top: 160px;
+    left: 220px;
+  }
+  85% {
+    position: absolute;
+    top: 160px;
+    left: 0px;
+  }
+
+
+  90% {
+    position: absolute;
+    top: 320px;
+    left: 0px;
+  }
+
+  100% {
+    position: absolute;
+    top: 320px;
+    left: 220px;
+  }
+
+  
+}
+
+
+
+.L {
+  width: 300px;
+  height: 550px;
+  margin: 30%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "nnn o o o"
+    "nnn to to to"
+    "nnn he he he"
+    "nnn fu fu fu"
+    "nnn fvi fvi fvi";
+  position: relative;
+  top: -880px;
+  left: 130px;
+}
+
+
+
+.onel {
+  grid-area: onn;
+  background-color: #333;
+}
+
+.twol {
+  grid-area: two;
+  background-color: #333;
+}
+
+.thl {
+  grid-area: the;
+  background-color: #333;
+}
+
+.frl {
+  grid-area: fur;
+  background-color: #333;
+}
+
+.fvl {
+  grid-area: fvi;
+  background-color: #333;
+}
+
+.sixl {
+  grid-area: nnn;
+  background-color: #333;
+}
+
+.L::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ffc107;
+    margin: 10px;
+    left: 220px;
+    top: 320px;
+    opacity: -0.8;
+    animation-name: squerl;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-direction: alternate;
+  }
+
+
+@keyframes squerl {
+    0% {
+        position: absolute;
+        left: 220px;
+        top: 320px;
+        opacity: -0.8;
+    }
+
+    5% {
+      position: absolute;
+      left: 220px;
+      top: 320px;
+      opacity: 0.2;
+    }
+    10% {
+      position: absolute;
+      left: 220px;
+      top: 320px;
+      opacity: 1.2;
+    }
+    50% {
+      position: absolute;
+      left: 0px;
+      top: 320px;
+      opacity: 1.2;
+    }
+
+    80% {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 1.2;
+    }
+    
+    100% {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: -0.8;
+    }
+
+}

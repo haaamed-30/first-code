@@ -1,0 +1,111 @@
+/* div {
+    background-color: #eee;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    padding: 50px 0 0 0;
+    margin: 25px;
+    position: relative;
+    left: 50%;
+}
+
+div:empty {
+    background-color: red;
+} */
+
+
+/* div {
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 325px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 30px;
+    /* position: absolute;
+    left: 30%;
+    top: 20%; 
+}
+
+/* div::first-letter {
+    position: relative;
+    left: 10px;
+    padding: 13px 7.5px;
+    margin-left: -40px; 
+    background-color: red; 
+    color: white;
+} */ 
+
+/* 
+p {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 360px;
+    height: 40px;
+    padding: 15px 0 0 0;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    left: 25%;  
+    border-left:solid rgb(230, 13, 78) 5px ;
+}
+
+
+p::before {
+    content: attr(data-person);
+    background-color: #eee;
+    position: absolute;
+    left: -120px;
+    top: -10px;
+    margin: 10px;
+    width: 80px;
+    height: 40px;
+    padding: 15px 0 0 0;
+}
+
+
+
+p::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 365px;
+    top: 17px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent rgb(230, 13, 78) transparent transparent;
+} */
+
+
+p {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 360px;
+    height: 40px;
+    padding: 15px 0 0 0;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    left: 25%;  
+    border-right:solid rgb(228, 71, 71) 5px ;
+    counter-increment: number;
+}
+
+p::before {
+    content: counter(number);
+    background-color: rgb(228, 71, 71);
+    width: 54px;
+    height: 40px;
+    padding: 15px 0px 0px 0px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: -60px;
+    bottom: -10px;
+    text-align: center; 
+}
+
+
+

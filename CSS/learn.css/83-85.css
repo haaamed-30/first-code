@@ -1,0 +1,86 @@
+/* div {
+    color: blue;
+    font-size: 70px;
+    background-color: red;
+    width: 800px;
+    text-align: center;
+}
+
+@media print {
+    div {
+        font-size: 40px;
+    }
+} */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+}
+
+.main div {
+    padding: 30px;
+    background-color: #eee;
+    color: #00695c;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    
+}
+
+.main div::after {
+    content: "This is Product";
+   position: absolute;
+   width: 100%;
+   top:50px;
+   left: 1px;
+   font-size: 10px;
+   color: black;
+   font-weight: normal;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (min-width: 1000px) {
+  .main .two .th {
+      width: calc((50%-10px) / 2);
+  }
+}
+
+
+/* @media (min-width:912px) {
+    .main div {
+        width: calc(50% - 10px);
+        color: red;
+    }
+        .main .one {
+            width: 900px;
+        }  
+        .main .two {
+            width: 290px;
+           
+        } 
+        .main .th {
+            width: 290px;
+        }
+        .main .Fr {
+            width: 290px;
+        } 
+}
+
+@media (max-width:707px) {
+    .main div {
+        width: calc(100% - 10px);
+        color: black;
+
+    } */

@@ -1,0 +1,96 @@
+/*
+  CSS Selectors
+  - *
+  - Element => [p, div, h2]
+  - Element OtherElement => div p
+  - .class-name
+  - #id-name
+  - .parent .child
+  - .class-one.class-two
+  - .class-name div, .class-name p
+  - Element.class-name => p.class-name
+  - .parent > .child => Direct Child
+*/
+/*
+  CSS Selectors
+  - Element + Other Element => [div + p]
+  - Element ~ Other Elements => [p ~ div]
+  - [Attribute]
+  - Element[Attribute]
+  - [Attribute=Value]
+  - Element[Attribute=Value] => input[type="submit"]
+  - [Attribute~=Value] => Contains A Word
+  - [Attribute*=Value] => Contains A Atring
+  - [Attribute^=Value] => Start With A String
+*/
+/*
+  CSS Selectors
+  - :first-child
+  - :last-child
+  - :first-of-type
+  - :last-of-type
+  - :only-child
+*/
+/*
+  CSS Selectors
+  - :not(Selectors)
+  - :nth-child(n)
+  - :nth-last-child(n)
+  - :nth-of-type(n)
+  - :nth-last-of-type(n)
+*/
+/*
+  CSS Selectors
+  - :root
+  - :checked
+  - :empty
+  - :disabled
+  - :required
+  - :focus
+  - ::selection
+  - ::placeholder
+*/
+
+
+
+
+ /* div:nth-last-child(2),div:first-child {
+    color: red;
+} */
+
+
+/* div.child:nth-of-type(2) {
+    color: red;
+} */
+
+/* div > .baby:only-child { 
+    color: red;
+}  */
+
+/* body > div[title=Elzero]:nth-of-type(3),
+div[title=Hello],
+   [title=HTML]  {
+    color: red; 
+} */
+
+
+/* div[title~=Elzero]:not(.no-need):last-child:not(.no-need > div) {
+  color: red;
+} */
+
+/* body > div:first-child :nth-last-of-type(2),
+body > div:nth-of-type(2) :nth-last-of-type(2){
+  color: red;
+} */
+
+/* body > div:first-child :nth-last-child(2) {
+  color: red;
+  font-size: 38px;
+} */
+
+
+p, div:not(:nth-child(1)):not(:last-child) {
+  color: red;
+}
+
+ 

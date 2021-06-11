@@ -1,0 +1,41 @@
+/* h1 {
+    text-shadow: 1px 0 0 red, 2px 0 0 blue, 3px 0 0 plum;
+} */
+
+
+
+/* .one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+} */
+
+ /* div {
+    background-color: #eee;
+    width: 400px;
+    padding: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}  */
+
+
+a {
+    background-color:rgb(69, 133, 69);
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 50% 50%;
+    text-decoration: none;
+    border-bottom: rgb(70, 67, 67) solid 5px;
+    direction: ltr;
+    display: inline-block;
+    
+}

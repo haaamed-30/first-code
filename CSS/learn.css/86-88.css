@@ -1,0 +1,79 @@
+/* .center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-position {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% -50%);
+}
+
+.circle-100 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circle-200 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} */
+
+div {
+    background-color: #ccc;
+    width: 400px;
+    margin: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.arrow-top::before {
+    content: "";
+    border:#ccc solid 10px ;
+    border-top-color:transparent ;
+    border-right-color:transparent ;
+    border-left-color:transparent ;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+}
+.arrow-right::before {
+    content: "";
+    border:#ccc solid 10px ;
+    border-top-color:transparent ;
+    border-right-color:transparent ;
+    /* border-left-color:transparent ; */
+    border-bottom-color:transparent ;
+    position: absolute;
+    top: 20px;
+    left: 100%;
+}
+
+.arrow-bottom::before {
+    content: "";
+    border:#ccc solid 10px ;
+    /* border-top-color:transparent ; */
+    border-right-color:transparent ;
+    border-left-color:transparent ;
+    border-bottom-color:transparent ;
+    position: absolute;
+    top: 58px;
+    left: 50%;
+}
+
+.arrow-left::before {
+    content: "";
+    border:#ccc solid 10px ;
+    border-top-color:transparent ;
+    /* border-right-color:transparent ; */
+    border-left-color:transparent ;
+    border-bottom-color:transparent ;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+

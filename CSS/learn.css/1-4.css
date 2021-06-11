@@ -1,0 +1,97 @@
+
+/* any element with class Title */
+.title {
+
+}
+
+/* Any element wtih id => # */
+#nav {
+
+}
+
+/* All the div element efacitve */
+div {
+
+}
+
+/* All the heading efactive */
+h2 {
+
+}
+
+
+
+
+
+
+/* Valid */
+._user-name {
+
+}
+
+/* Valid */
+.-user-name {
+
+}
+
+/* Valid */
+.-user_name {
+
+}
+
+
+/* Not Valid */
+.1user-name {
+
+}
+
+/* Not Valid */
+.@user-name {
+
+}
+
+/* Not Valid */
+.user@name {
+
+}
+
+/* Valid */
+._user10name {
+
+}
+
+/* Valid */
+.u {
+
+}
+
+
+
+
+
+
+
+ /* Bad */
+ .USERNAME {
+
+ }
+
+ /* Bad  */
+ .UserName {
+
+ }
+
+ /* Good */
+ .user-name {
+
+ }
+
+ /* Bad  */
+ .userName {
+
+ }
+
+ /* Bad  */
+ .usernameprofile {
+
+ }
