@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #58a6ff;
+ }
+ .fill {
+     margin: 25px auto;
+     text-align: center;
+     font-weight: bold;
+     font-size: 40px;
+     width: fit-content;
+     -webkit-text-fill-color: #ffffffdb;
+     -webkit-text-stroke: 1.25px #010409;
+     position: relative;
+     cursor: pointer;
+ }
+ .fill::before {
+     content: attr(data-text);
+     position: absolute;
+     left: 0;
+     top: 0;
+     -webkit-text-fill-color: #010409;
+     transition: 0.5s;
+     width: 0;
+     overflow: hidden;
+ }
+ .fill:hover:before {
+     width: 80%;
+ }
